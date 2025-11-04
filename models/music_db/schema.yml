@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+    - name: music_db
+      description: 'Music database.'
+      database: music_db
+      schema: PUBLIC
+      tables:
+        - name: MediaType
+        - name: Genre
+        - name: Artist
+        - name: Album
+        - name: Playlist
+        - name: Track
+        - name: PlaylistTrack
